@@ -3,7 +3,7 @@
 .pie_pagina {
     font-family: "Bebas Neue";
     width: 98%;
-    height: 40vh;
+    height: auto;
     margin: auto;
     background-color: #9C1B1C;
 }
@@ -34,12 +34,11 @@
 
 /*---Primera columna de logo y redes sociales---*/
 
-
 /*Caja del Logo*/
-
-.pie_pagina .grupo_1 .box_footer .logo_redsocial figure {
-    margin-bottom: 5vh;
+.pie_pagina .grupo_1 .box_footer .logo_redsocial{
+    margin: 0 auto;
 }
+
 
 
 /*Logo*/
@@ -75,7 +74,7 @@
 
 .pie_pagina .grupo_1 .box_footer h3 {
     font-size: 4vh;
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
 }
 
 
@@ -98,7 +97,7 @@
 
 /*Fuente de los enlaces de pie de página*/
 
-.linksfooter a {
+#quintacolumna .linksfooter a {
     /*color: #FFFFFF;*/
     text-align: center;
     font-size: 2.5vh;
@@ -107,7 +106,7 @@
 }
 
 /*hover de los links*/
-.linksfooter a:hover{
+#quintacolumna .linksfooter a:hover{
     color:#52A5A0;
 }
 
@@ -116,6 +115,7 @@
 
 #segundacolumna {
     flex-direction: column;
+    gap:2vh;
 }
 
 
@@ -123,10 +123,13 @@
 
 #terceracolumna {
     flex-direction: column;
+    gap:2vh;
 }
 
 #cuartacolumna {
     flex-direction: column;
+    gap:1vh;
+    
 }
 
 #quintacolumna {

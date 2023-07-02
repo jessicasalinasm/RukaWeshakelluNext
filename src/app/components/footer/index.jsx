@@ -8,7 +8,7 @@ export default function Footer() {
     
         <footer className={style.pie_pagina}>
   <div className={style.grupo_1}>
-    <div className={style.box_footer} id="primeracolumna">
+    <div className={style.box_footer} id={style.primeracolumna}>
       <div className={style.logo_redsocial}>
         <figure>
           <Link href="#">
@@ -22,7 +22,7 @@ export default function Footer() {
       </div>
     </div>
     <div className={style.box_footer} id={style.segundacolumna}>
-      <h3 id={style.contactofooter}><b>Contacto</b></h3>
+      <Link href="/app"><h3><b>Contacto</b></h3></Link>
       <Link href="/nosotros">
         <h3><b>Nosotros</b></h3>
       </Link>
