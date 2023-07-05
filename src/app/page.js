@@ -1,11 +1,29 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 import Link from 'next/link'
+/* estamos trabajando en la fuente, asi que por el momento da error */
+import H1 from './components/material/H1'
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <section className={styles.container_nosotros}>
+        <div className={styles.img_nosotros}>
+          <Image src="/image/doña_elba_y_cinta.png" alt="imagen-nosotros" height="654" width="583"/>
+          <div className={styles.parrafo_nosotros}>
+            <H1>INCHIÑ TAÑI MONGEN</H1> 
+           
+            
+
+            <h2>NUESTRA HISTORIA</h2>
+            <p>Somos Ruka Weshakellu, que en Mapuzungun significa, “la casa donde hay de todo”. Nacimos como una empresa familiar dedicada a la gastronomía Mapuche con fusión contemporánea</p>
+            <Link href="/nosotros"><h3 className={styles.saber_mas}>Saber más</h3></Link>
+          </div>   
+        </div>
+      </section>
+
       <section className={styles.contacto}>
+
   <div>
     <Image className={styles.decoracion1contacto} src="/image/decoracion.png" alt="Simbolo 1" width="200" height="1137" style={{ opacity: 0.3 }}/>
   </div>
