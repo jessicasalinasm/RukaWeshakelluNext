@@ -34,7 +34,7 @@ export default function Footer() {
       <h3>Nuestros Eventos</h3>
     </div>
     <div className={style.box_footer} id={style.cuartacolumna}>
-      <h3>Menú</h3>
+      <Link href="/menu"><h3>Menú</h3></Link>
       <p>Bebestible</p>
       <p>Platos Fríos</p>
       <p>Platos Calientes</p>

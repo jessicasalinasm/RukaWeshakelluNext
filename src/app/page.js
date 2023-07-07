@@ -6,6 +6,7 @@ import Card from "./components/Card_recomendacion/Cards";
 /* estamos trabajando en la fuente, asi que por el momento da error */
 import H1 from "./components/material/H1";
 
+
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -68,6 +69,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Carrusel */}
+      {/* Carrusel */}
 
       <section className={styles.contacto}>
         <div>
