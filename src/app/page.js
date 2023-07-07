@@ -4,6 +4,7 @@ import Link from 'next/link'
 /* estamos trabajando en la fuente, asi que por el momento da error */
 import H1 from './components/material/H1'
 
+
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -12,15 +13,16 @@ export default function Home() {
           <Image src="/image/doña_elba_y_cinta.png" alt="imagen-nosotros" height="654" width="583"/>
           <div className={styles.parrafo_nosotros}>
             <H1>INCHIÑ TAÑI MONGEN</H1> 
-           
             
-
             <h2>NUESTRA HISTORIA</h2>
             <p>Somos Ruka Weshakellu, que en Mapuzungun significa, “la casa donde hay de todo”. Nacimos como una empresa familiar dedicada a la gastronomía Mapuche con fusión contemporánea</p>
             <Link href="/nosotros"><h3 className={styles.saber_mas}>Saber más</h3></Link>
           </div>   
         </div>
       </section>
+
+      {/* Carrusel */}
+      {/* Carrusel */}
 
       <section className={styles.contacto}>
 
