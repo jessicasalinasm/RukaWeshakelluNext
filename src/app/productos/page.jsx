@@ -6,12 +6,11 @@ export default function Productos() {
   return (
     
     <main className={style.contenedor}>
-        <div className={style.banner_productos}>
-            <h2>Hola soy el banner</h2>
-        {/* <Image className={style.img_card} src="/image/"alt="foto de joyaMapuche"></Image> */}
+        <div className={style.banner}> {/* Aplica los estilos CSS si los tienes */}
+          <h1>Nuestros productos</h1>
+          <p>Descubre nuestras productos hecho a mano</p>
         </div>
         <h1 className={style.titulo_destacados}>Productos destacados</h1>
-        <h2 className={style.titulo_productos}>Nuestros productos</h2>
         <hr className='linea_division'/>
         <section className={style.container_artesanias}>
           <h2 className={style.titulo_artesanias}>Artesanias</h2>    
