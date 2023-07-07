@@ -1,27 +1,47 @@
-.banner_productos{
-    max-width: 100%;
-    height: 300px;
-    margin-bottom: 70px;
-    background-color: #52A5A0;
-}
-.titulo_destacados{
+.banner {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/image/banner_productos.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+  }
+  
+  .banner h1 {
+    padding: 40px;
+    color: #fff;
+    font-size: 44px;
+    margin-bottom: 10px;
+  }
+  
+  .banner p {
+    padding: 40px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+ .titulo_destacados{
     text-align: center;
     font-weight: bold;
     font-size: 0px;
-    /* font-family: 'Bebas Neue',sans-serif; */
-}
-.titulo_productos{
+    
+} 
+ .titulo_productos{
     margin: 20px auto;
     width: 90%;
-    font-family: 'Anek Devanagari', sans-serif;
     font-weight: bold;
     color: #52A5A0;
     font-size: 40px;
-    
-    
-}
+} 
 .titulo_artesanias{
+
+    text-align: center;
+    font-size: 40px;
+    padding: 50px;
     color:#52A5A0;
+    font-weight: bold;
 }
 
 .linea_division{
