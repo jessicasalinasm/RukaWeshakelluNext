@@ -2,7 +2,7 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import Link from 'next/link'
 /* estamos trabajando en la fuente, asi que por el momento da error */
-import H1 from './components/material/H1'
+import H1 from '../components/material/H1'
 
 export default function Home() {
   return (
