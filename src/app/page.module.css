@@ -5,6 +5,36 @@
   align-items: center;
   min-height: 100vh;
 }
+
+/* Recomendacion de la ruka */
+.Recomendacion_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Recomendacion_texto {
+  text-align: center;
+  color: rgba(82, 165, 160, 1);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.text_horario {
+  margin-top: 100px;
+  color: black;
+  font-size: 25px;
+}
+
+/* FIN Recomendacion de la ruka */
 /* nosotros primera parte */
 
 .container_nosotros {
@@ -12,7 +42,7 @@
   width: 80%;
   margin: auto;
   display: flex;
-  background-color: #E6B54A;
+  background-color: #e6b54a;
 }
 
 .img_nosotros {
@@ -29,11 +59,11 @@
   padding: 50px;
   width: 100%;
   max-width: 400px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .parrafo_nosotros h1 {
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue";
   font-style: normal;
   font-weight: 500;
   font-size: 43px;
@@ -42,7 +72,7 @@
 }
 
 .parrafo_nosotros h2 {
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue";
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -51,7 +81,7 @@
 }
 
 .parrafo_nosotros p {
-  font-family: 'Abel';
+  font-family: "Abel";
   font-style: normal;
   font-weight: 180;
   font-size: 19px;
@@ -60,7 +90,7 @@
 
 .saber_mas {
   position: relative;
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue";
   font-style: normal;
   font-weight: 180;
   font-size: 22px;
@@ -68,7 +98,7 @@
 }
 
 .saber_mas::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
   height: 2px;
@@ -82,11 +112,7 @@
   width: 25%;
 }
 
-
-
-
 /*********Contacto*************/
-
 
 .contacto {
   height: 100vh;
@@ -96,15 +122,14 @@
   width: 1500px;
   max-width: 100%;
   margin: auto;
-  color: #E6B54A;
+  color: #e6b54a;
   /*Para que los patrones y la columna central queden en la misma línea*/
   display: flex;
   justify-content: space-between;
   /*Para que los patrones de los costados se escondan*/
   overflow: hidden;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
-
 
 /*Contacto y Ubicación, datos de la columna central*/
 
@@ -117,7 +142,6 @@
   width: 70%;
 }
 
-
 /*Parte de arriba de la columna, imagen de araña más títulos*/
 
 #columnaarriba {
@@ -128,13 +152,11 @@
   margin: 2% auto 2% auto;
 }
 
-
 /*Caja de imagen de araña*/
 
 .imagen_contacto {
   text-align: center;
 }
-
 
 /*Caja que contiene los títulos*/
 
@@ -143,13 +165,11 @@
   margin: 10% auto;
 }
 
-
 /*Fuente de títulos*/
 
 .titulos_contacto h1 {
   font-size: 6vh;
 }
-
 
 /*Este componente es de datos cliente y mapa*/
 
@@ -161,7 +181,6 @@
   margin: 5% auto;
 }
 
-
 /*Datos cliente*/
 
 #datoscliente {
@@ -170,14 +189,12 @@
   align-self: center;
 }
 
-
 /*Fuente h1 dentro de datos cliente*/
 
 .contacto .columna_contacto .datoscliente_ubicacion #datoscliente h1 {
   font-size: 4vh;
   line-height: 7vh;
 }
-
 
 /*Fuente h3 dentro de datos cliente*/
 
@@ -187,7 +204,6 @@
   color: rgba(73, 70, 68, 1);
 }
 
-
 /*Fuente de enlaces tipo "a" dentro de datos cliente*/
 
 .contacto .columna_contacto .datoscliente_ubicacion #datoscliente a {
@@ -196,14 +212,12 @@
   text-decoration: none;
 }
 
-
 /*Fuente de Hover de enlaces tipo "a" dentro de datos cliente*/
 
 .contacto .columna_contacto .datoscliente_ubicacion #datoscliente a:hover {
-  color: #52A5A0;
+  color: #52a5a0;
   text-decoration: none;
 }
-
 
 /*Mapa*/
 
