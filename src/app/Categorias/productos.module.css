@@ -1,0 +1,147 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("/image/banner_productoss.png");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  height: 750px;
+}
+
+.banner h1 {
+  user-select: none;
+  color: #fff;
+  font-size: 70px;
+}
+
+.banner h3 {
+  user-select: none;
+  padding-top: 30px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+.titulo_destacados {
+  text-align: center;
+  user-select: none;
+  font-size: 48px;
+  color: #52a5a0;
+  margin: 60px auto 60px auto;
+}
+
+.contenedor_destacados {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px 0;
+  gap: 20px;
+}
+
+.linea_division {
+  width: 90%;
+  margin: auto;
+  height: 2px;
+  background-color: #52a5a0;
+}
+
+.container_categories {
+  display: flex;
+  max-width: 90%;
+  height: 530px;
+  margin: 60px auto;
+}
+.container_categories div {
+  border-radius: 20px;
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container_categories h2 {
+  color: #fff;
+  font-size: 35px;
+  user-select: none;
+}
+.categoria_artesania {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("/image/tupoDePlata.jpg");
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 624px;
+  height: 530px;
+  margin: auto;
+}
+
+.categoria_artesania:hover {
+  transform: scale(1.1);
+}
+.categoria_agroelaborados {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("/image/mermelada_redimersionada.jpg");
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 624px;
+  height: 530px;
+  margin: auto;
+}
+
+.categoria_agroelaborados:hover {
+  transform: scale(1.1);
+}
+.container_info_compra {
+  display: flex;
+  background-image: url("/image/fondo_hojas_redumensionada.jpg");
+  max-width: 90%;
+  min-height: 350px;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 8px;
+}
+.fondo_info_compra {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.container_text_compra {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container_text_compra h4 {
+  font-size: 25px;
+}
+
+.container_text_compra p {
+  font-size: 17px;
+  padding: 10px;
+}
+.text_sub_contacto {
+  font-size: 20px;
+}
+.icono_container {
+  display: flex;
+  justify-content: space-around;
+}
+.icono_container h6 {
+  font-size: 17px;
+  padding-left: 5px;
+}
+
+.icono_container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .logo_info{
+    
+    
+} */
