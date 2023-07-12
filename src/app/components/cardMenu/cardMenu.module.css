@@ -1,0 +1,44 @@
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  background-color: rgba(28, 24, 22, 1);
+  border-radius: 10px;
+  padding: 20px;
+  width: 1167px;
+  margin: 70px;
+  display: flex;
+}
+.cardFondo {
+  display: flex;
+}
+.Image {
+  border-radius: 5px;
+  margin-right: 50px;
+  display: flex;
+}
+.textoCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textoCard h2 {
+  color: white;
+  font-size: 48px;
+  margin: 30px;
+}
+.textoCard p {
+  color: white;
+  margin: 60px;
+}
+.textoCard h6 {
+  color: white;
+  margin: 60px;
+}
+.btn {
+  width: 205px;
+  height: 40px;
+  border-radius: 8px;
+}
