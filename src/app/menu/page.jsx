@@ -1,22 +1,17 @@
-import Image from "next/image";
+import React from "react";
 import Style from "./menu.module.css";
+import MenuHome from "../components/cardMenu";
+import Image from "next/image";
 
-const Card = () => {
+export default function page() {
   return (
-    <section className={Style.card}>
-      <Image
-        src="/image/nosotros_fogon.jpg"
-        alt="ruka"
-        width="200"
-        height="200"
-      />
-      <h3>Card Title</h3>
-      <p>Card Description</p>
-      <div className="card-footer">
-        <span>Like</span>
-      </div>
-    </section>
+    <main className={Style.fondoMenu}>
+      <section className={Style.menuContenedor}>
+        <div className={Style.bannerMenu}></div>
+        <div>
+          <MenuHome />
+        </div>
+      </section>
+    </main>
   );
-};
-
-export default Card;
+}

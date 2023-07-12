@@ -11,7 +11,7 @@ export default function BarraNavegacion() {
           className={style.logo}
           src="/image/rukalogo.png"
           alt="Logo de Ruka Weshakellu"
-          width={170}
+          width={188}
           height={70}
         />
         <ul className={style.navbar_lista}>
@@ -21,12 +21,12 @@ export default function BarraNavegacion() {
             </Link>
           </li>
           <li>
-            <Link className={style.navbar_link} href="#">
+            <Link className={style.navbar_link} href="/menu">
               Menú
             </Link>
           </li>
           <li>
-            <Link className={style.navbar_link} href="/Categorias">
+            <Link className={style.navbar_link} href="/productos">
               Productos
             </Link>
           </li>
@@ -40,13 +40,10 @@ export default function BarraNavegacion() {
               Contacto
             </Link>
           </li>
-          <button className={style.button_Reserva}>
-            <span className={style.transition}></span>
-            <span className={style.gradient}></span>
-            <Link className={style.label} href="/reserva">
-              Reserva
-            </Link>
+          <button href="#" className={style.button_Reserva}>
+            Reservar
           </button>
+          {/* arreglar */}
         </ul>
       </nav>
     </header>
