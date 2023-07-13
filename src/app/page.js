@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
 /* Felipito's comment--> Añadi las card que utilice para platos recomendados */
-import Card from "./components/Card_recomendacion/Cards";
+import Card from "./components/Card_recomendacion/index";
 /* estamos trabajando en la fuente, asi que por el momento da error */
 import H1 from "./components/material/H1";
 

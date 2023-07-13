@@ -1,0 +1,11 @@
+.Titulos {
+  text-align: center;
+  color: aliceblue;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+  background-color: black;
+}
+
+.Carta {
+  margin-left: 500px;
+}

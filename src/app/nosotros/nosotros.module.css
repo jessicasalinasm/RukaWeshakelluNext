@@ -1,32 +1,27 @@
-.nosotros{
-    /**background-image: url("imagenesfooter/decoracionlarga.png");
+.nosotros {
+  /**background-image: url("imagenesfooter/decoracionlarga.png");
     background-repeat: no-repeat;
     background-position: top right;**/
-    width: 98%;
-    margin: auto;
-    /*Esto es para que los patrones de decoración y la columna central queden en una misma línea*/
-    display: flex;
-    justify-content: space-between;
-    height: 210vh;
-    background-color: #FFFFFF;
-    ;
+  width: 98%;
+  margin: auto;
+  /*Esto es para que los patrones de decoración y la columna central queden en una misma línea*/
+  display: flex;
+  justify-content: space-between;
+  height: 210vh;
+  background-color: #ffffff;
 }
 
-
 /*Imágenes de decoración a los costados*/
-
 
 /*Formato de las cajas que contienen las imágenes de los costados*/
 
 .decoracion_nosotros {
-    overflow: hidden;
+  overflow: hidden;
 }
-
 
 /*Formato de imágenes*/
 
 /*Patrón izquierdo position:fixed*/
-
 
 /*
 #nosotros-patronizquierdo {
@@ -37,9 +32,7 @@
 }
 */
 
-
 /*Patrón derecho position:fixed*/
-
 
 /*
 #nosotros-patronderecho {
@@ -50,70 +43,63 @@
 }
 */
 
-
 /*****Texto de la página más video*****/
-
 
 /*Columna central*/
 
 .centro_nosotros {
-    display: flex;
-    flex-direction: column;
-    width: 140vh;
-    margin: 2% auto;
+  display: flex;
+  flex-direction: column;
+  width: 140vh;
+  margin: 2% auto;
 }
-
 
 /*Cuadro de Fotos de nosotros*/
 
 .imgnos {
-    display: flex;
-    flex-direction: row;
-    gap: 5vh;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 5vh;
+  justify-content: center;
 }
-
 
 /*Fotos*/
 
 .img_section_nosotros img {
-    border: 2px dashed #E6B74F;
-    padding: 7px;
+  border: 2px dashed #e6b74f;
+  padding: 7px;
 }
-
 
 /*Formato de Títulos*/
 
 .centro_nosotros h1 {
-    font-family: "Bebas Neue";
-    color: #E6B74F;
-    font-size: 50px;
-    text-align: left;
-    padding: 5vh 10vh
+  font-family: "Bebas Neue";
+  color: #e6b74f;
+  font-size: 50px;
+  text-align: left;
+  padding: 5vh 10vh;
 }
 
 .centro_nosotros h2 {
-    font-family: "Bebas Neue";
-    color: #E6B74F;
-    font-size: 35px;
-    text-align: left;
-    padding: 0 0 7vh 10vh;
+  font-family: "Bebas Neue";
+  color: #e6b74f;
+  font-size: 35px;
+  text-align: left;
+  padding: 0 0 7vh 10vh;
 }
-
 
 /*Formato del párrafo*/
 
 .parrafo_nosotros {
-    text-align: justify;
-    padding: 5vh 10vh 5vh 10vh;
-    font-family: Abel;
-    font-size: 3vh;
+  text-align: justify;
+  padding: 5vh 10vh 5vh 10vh;
+  font-family: Abel;
+  font-size: 3vh;
 }
-
 
 /*Video de youtube nostros*/
 
 .video_nosotros {
-    text-align: center;
-    margin: 5vh auto;
+  text-align: center;
+  margin: 5vh auto;
 }
