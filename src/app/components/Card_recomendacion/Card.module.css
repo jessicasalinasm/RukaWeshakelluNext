@@ -10,7 +10,13 @@
 
 .card .imageUrl {
   border-radius: 30px;
+  transition: transform 0.3s ease;
 }
+
+.card .imageUrl:hover {
+  transform: scale(1.3);
+}
+
 .card .h2 {
   text-align: center;
   color: #9c1b1c;

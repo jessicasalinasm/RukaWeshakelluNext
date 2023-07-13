@@ -1,11 +1,21 @@
+/* Estilos para dispositivos grandes */
 .Titulos {
   text-align: center;
   color: aliceblue;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 30px;
+  font-size: 1.875rem;
   background-color: black;
 }
 
 .Carta {
-  margin-left: 500px;
+  margin-left: 18.75rem;
+}
+
+/* Estilos para dispositivos pequeños */
+@media screen and (max-width: 800px) {
+  .Carta {
+    margin-left: auto; /* Centra horizontalmente */
+    margin-right: auto;
+    max-width: 100%; /* Ajusta el ancho máximo para evitar desbordamiento */
+  }
 }

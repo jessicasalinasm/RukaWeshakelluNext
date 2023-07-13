@@ -1,6 +1,7 @@
 import Style from "./cardMenu.module.css";
 import Image from "next/image";
 import VectorMenu from "../vectorMenu";
+import Link from "next/link";
 
 export default function MenuHome() {
   const menu = [
@@ -10,6 +11,7 @@ export default function MenuHome() {
       descripcion:
         "Officia ea aute esse quis officia aliqua. Enim Lorem mollit est quis sit occaecat dolor qui mollit Lorem. Aute ex non commodo velit anim ea sunt laboris ullamco est.",
       subTitulo: "Officia ea aute esse quis officia aliqua. Enim Lorem mollit ",
+      enlace: "menu/Carta#seccion-1",
     },
     {
       Imagen: "/image/joyaMapuche.jpg",
@@ -17,6 +19,7 @@ export default function MenuHome() {
       descripcion:
         "Officia ea aute esse quis officia aliqua. Enim Lorem mollit est quis sit occaecat dolor qui mollit Lorem. Aute ex non commodo velit anim ea sunt laboris ullamco est.",
       subTitulo: "Officia ea aute esse quis officia aliqua. Enim Lorem mollit ",
+      enlace: "menu/Carta#seccion-2",
     },
     {
       Imagen: "/image/joyaMapuche.jpg",
@@ -24,6 +27,7 @@ export default function MenuHome() {
       descripcion:
         "Officia ea aute esse quis officia aliqua. Enim Lorem mollit est quis sit occaecat dolor qui mollit Lorem. Aute ex non commodo velit anim ea sunt laboris ullamco est.",
       subTitulo: "Officia ea aute esse quis officia aliqua. Enim Lorem mollit ",
+      enlace: "menu/Carta#seccion-3",
     },
     {
       Imagen: "/image/joyaMapuche.jpg",
@@ -31,13 +35,15 @@ export default function MenuHome() {
       descripcion:
         "Officia ea aute esse quis officia aliqua. Enim Lorem mollit est quis sit occaecat dolor qui mollit Lorem. Aute ex non commodo velit anim ea sunt laboris ullamco est.",
       subTitulo: "Officia ea aute esse quis officia aliqua. Enim Lorem mollit ",
+      enlace: "menu/Carta#seccion-4",
     },
     {
       Imagen: "/image/joyaMapuche.jpg",
-      titulo: "Postres",
+      titulo: "Cafeteria / Pasteleria",
       descripcion:
         "Officia ea aute esse quis officia aliqua. Enim Lorem mollit est quis sit occaecat dolor qui mollit Lorem. Aute ex non commodo velit anim ea sunt laboris ullamco est.",
       subTitulo: "Officia ea aute esse quis officia aliqua. Enim Lorem mollit ",
+      enlace: "menu/Carta#seccion-5",
     },
   ];
 
@@ -59,7 +65,9 @@ export default function MenuHome() {
                   <h2>{producto.titulo}</h2>
                   <p>{producto.descripcion}</p>
                   <h6>{producto.subTitulo}</h6>
-                  <button className={Style.btn}>📄 Descargar PDF</button>
+                  <Link href={producto.enlace} className={Style.btn}>
+                    <div className={Style.textbtn}>Ver en la carta</div>
+                  </Link>
                 </div>
               </div>
             </div>

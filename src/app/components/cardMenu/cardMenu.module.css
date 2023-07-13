@@ -41,4 +41,12 @@
   width: 205px;
   height: 40px;
   border-radius: 8px;
+  background-color: #e6b74f;
+  text-align: center;
+}
+.btn:hover {
+  background-color: #ff8c00;
+}
+.textbtn {
+  margin-top: 9px;
 }

@@ -14,8 +14,9 @@ function Carta() {
   return (
     <div>
       {secciones.map((seccion) => (
-        <section key={seccion.id}>
+        <section key={seccion.id} id={`seccion-${seccion.id}`}>
           <h2 className={Style.Titulos}>{seccion.titulo}</h2>
+
           <Image
             className={Style.Carta}
             src={seccion.Image}

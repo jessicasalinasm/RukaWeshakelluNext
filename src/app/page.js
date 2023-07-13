@@ -6,7 +6,6 @@ import Card from "./components/Card_recomendacion/index";
 /* estamos trabajando en la fuente, asi que por el momento da error */
 import H1 from "./components/material/H1";
 
-
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -44,6 +43,8 @@ export default function Home() {
         </div>
       </section>
       {/* Finish recomendacion de la ruka */}
+
+      {/* Vectores divisores */}
       <div className={styles.vector_home_container}>
         <div className={styles.vector_up}>
           <img src="/image/vector_wave_up.svg"></img>
@@ -52,7 +53,7 @@ export default function Home() {
           <img src="/image/vector_wave_down.svg"></img>
         </div>
       </div>
-
+      {/* Finish Vectores */}
       <section className={styles.container_nosotros}>
         <div className={styles.img_nosotros}>
           <div className={styles.container_img_patron}>
