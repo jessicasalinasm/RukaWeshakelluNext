@@ -6,11 +6,13 @@ import Card from "./components/Card_recomendacion/index";
 /* estamos trabajando en la fuente, asi que por el momento da error */
 import H1 from "./components/material/H1";
 
+
 export default function Home() {
   return (
     <main className={styles.main}>
-      {/* INICIO PLATOS RECOMENDADOS */}
-
+      <div className={styles.banner_home_container}>
+        <h1>BIENVENIDO A NUESTRA RUKA</h1>
+      </div>
       <section className={styles.Recomendacion_container}>
         <header className={styles.Recomendacion_texto}>
           <h2>PLATOS RECOMENDADOS</h2>
@@ -41,33 +43,53 @@ export default function Home() {
           Horarios de atencion Martes a Domingos de 9:00 a 20:00 hrs.
         </div>
       </section>
-      <img src="/image/Vector_up.svg"></img>
-      <img src="/image/Vector_down.svg"></img>
       {/* Finish recomendacion de la ruka */}
+      <div className={styles.vector_home_container}>
+        <div className={styles.vector_up}>
+          <img src="/image/vector_wave_up.svg"></img>
+        </div>
+        <div className={styles.vector_down}>
+          <img src="/image/vector_wave_down.svg"></img>
+        </div>
+      </div>
 
       <section className={styles.container_nosotros}>
         <div className={styles.img_nosotros}>
-          <Image
-            src="/image/doña_elba_y_cinta.png"
-            alt="imagen-nosotros"
-            height="654"
-            width="583"
-          />
+          <div className={styles.container_img_patron}>
+            <Image
+              src="/image/foto_doñaElba.png"
+              alt="imagen-nosotros"
+              width="583"
+              height="554"
+            />
+            <div className={styles.vector_patron_container}>
+              <img src="/image/patron_mp_pequeño.svg"></img>
+            </div>
+          </div>
           <div className={styles.parrafo_nosotros}>
-            <H1>INCHIÑ TAÑI MONGEN</H1>
+            <div className={styles.content_text_nosotros}>
+              <h1>INCHIÑ TAÑI MONGEN</h1>
 
-            <h2>NUESTRA HISTORIA</h2>
-            <p>
-              Somos Ruka Weshakellu, que en Mapuzungun significa, “la casa donde
-              hay de todo”. Nacimos como una empresa familiar dedicada a la
-              gastronomía Mapuche con fusión contemporánea
-            </p>
-            <Link href="/nosotros">
-              <h3 className={styles.saber_mas}>Saber más</h3>
-            </Link>
+              <h2>NUESTRA HISTORIA</h2>
+              <p>
+                Somos Ruka Weshakellu, que en Mapuzungun significa, “la casa
+                donde hay de todo”. Nacimos como una empresa familiar dedicada a
+                la gastronomía Mapuche con fusión contemporánea
+              </p>
+            </div>
+            <button className={styles.button_nosotros}>
+              <span className={styles.transition}></span>
+              <span className={styles.gradient}></span>
+              <Link className={styles.label} href="/nosotros">
+                Saber más
+              </Link>
+            </button>
           </div>
         </div>
       </section>
+
+      {/* Carrusel */}
+      {/* Carrusel */}
 
       <section className={styles.contacto}>
         <div>

@@ -1,0 +1,81 @@
+.banner_reserva {
+  background-image: url("/image/cartelRedimencionado1.jpg");
+  /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 490px;
+}
+
+.reserva_container {
+  background-color: #1c1816;
+}
+
+.reserva_container_content {
+  width: 80%;
+  margin: auto;
+}
+
+.reserva_content_titulo {
+  font-size: 30px;
+  color: #fff;
+  margin-top: 60px;
+}
+.reserva_content_titulo span {
+  color: #e6b54a;
+}
+
+.reserva_container_content p {
+  font-size: 20px;
+  color: #fff;
+  margin: 20px auto 30px;
+}
+
+.reserva_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: 24px auto;
+  padding: 0 24px;
+  /* box-shadow: 0 0 20px 0 rgba(255,255,255,.3); */
+}
+
+.reserva_form_container form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.reserva_form_container form .block {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.reserva_form_container form .blockOne {
+  grid-column: 1 / 3;
+}
+.reserva_form_container form,
+.reserva_form_container input,
+.reserva_form_container textarea {
+  width: 100%;
+  padding: 11px;
+  border: none;
+}
+
+.reserva_form_container form button {
+  background-color: #e6b54a;
+  border: 0;
+  border-radius: 5px;
+  padding: 16px 40px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.reserva_form_title {
+  font-size: 25px;
+  color: #fff;
+}
+.reserva_inputs_container {
+  display: flexbox;
+}
+
+/* ------------------------------------------------------------ */
