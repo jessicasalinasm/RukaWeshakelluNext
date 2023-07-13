@@ -1,119 +1,101 @@
-.nosotros{
-    /**background-image: url("imagenesfooter/decoracionlarga.png");
-    background-repeat: no-repeat;
-    background-position: top right;**/
-    width: 98%;
-    margin: auto;
-    /*Esto es para que los patrones de decoración y la columna central queden en una misma línea*/
-    display: flex;
-    justify-content: space-between;
-    height: 210vh;
-    background-color: #FFFFFF;
-    ;
+.banner_nosotros_conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("/image/banner-nosotros-redimension.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+.banner_nosotros_conatiner h1 {
+  color: #f5f5f5;
+  font-size: 90px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-/*Imágenes de decoración a los costados*/
-
+.nosotros {
+  width: 98%;
+  margin: auto;
+  /*Esto es para que los patrones de decoración y la columna central queden en una misma línea*/
+  display: flex;
+  justify-content: space-between;
+  height: 210vh;
+  background-color: #ffffff;
+}
 
 /*Formato de las cajas que contienen las imágenes de los costados*/
 
 .decoracion_nosotros {
-    overflow: hidden;
+  overflow: hidden;
 }
 
-
-/*Formato de imágenes*/
-
-/*Patrón izquierdo position:fixed*/
-
-
-/*
-#nosotros-patronizquierdo {
-    position: fixed;
-    top: 0;
-    z-index: -1;
-    left: 0;
+.nosotros-patronizquierdo {
+  width: 200px;
+  height: 2176px;
 }
-*/
-
-
-/*Patrón derecho position:fixed*/
-
-
-/*
-#nosotros-patronderecho {
-    position: fixed;
-    top: 0;
-    z-index: -1;
-    right: 0;
-}
-*/
-
 
 /*****Texto de la página más video*****/
-
 
 /*Columna central*/
 
 .centro_nosotros {
-    display: flex;
-    flex-direction: column;
-    width: 140vh;
-    margin: 2% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 140vh;
+  margin: 2% auto;
 }
-
 
 /*Cuadro de Fotos de nosotros*/
 
 .imgnos {
-    display: flex;
-    flex-direction: row;
-    gap: 5vh;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 5vh;
+  justify-content: center;
 }
-
 
 /*Fotos*/
 
 .img_section_nosotros img {
-    border: 2px dashed #E6B74F;
-    padding: 7px;
+  border: 4px dashed #e6b74f;
+  padding: 7px;
 }
-
 
 /*Formato de Títulos*/
 
 .centro_nosotros h1 {
-    font-family: "Bebas Neue";
-    color: #E6B74F;
-    font-size: 50px;
-    text-align: left;
-    padding: 5vh 10vh
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #e6b74f;
+  font-size: 50px;
+  text-align: left;
+  padding: 5vh 10vh;
 }
 
 .centro_nosotros h2 {
-    font-family: "Bebas Neue";
-    color: #E6B74F;
-    font-size: 35px;
-    text-align: left;
-    padding: 0 0 7vh 10vh;
+  font-family: "Bebas Neue";
+  color: #e6b74f;
+  font-size: 35px;
+  text-align: left;
+  padding: 0 0 7vh 10vh;
 }
-
 
 /*Formato del párrafo*/
 
 .parrafo_nosotros {
-    text-align: justify;
-    padding: 5vh 10vh 5vh 10vh;
-    font-family: Abel;
-    font-size: 3vh;
+  text-align: justify;
+  padding: 5vh 10vh 5vh 10vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 3vh;
 }
-
 
 /*Video de youtube nostros*/
 
 .video_nosotros {
-    text-align: center;
-    margin: 5vh auto;
+  text-align: center;
+  margin: 5vh auto;
 }

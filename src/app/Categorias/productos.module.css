@@ -97,7 +97,8 @@
 }
 .container_info_compra {
   display: flex;
-  background-image: url("/image/fondo_hojas_redumensionada.jpg");
+  background-image: url("/image/fondo_hojas_secas.jpg");
+  background-size: cover;
   max-width: 90%;
   min-height: 350px;
   margin: 50px auto;
