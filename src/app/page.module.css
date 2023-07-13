@@ -146,7 +146,6 @@
   background: #e08722;
   color: white;
   border: 3px;
-  border-color: aqua;
   position: relative;
   overflow: hidden;
   border-radius: 0.6em;
@@ -188,26 +187,45 @@
 }
 /*********Contacto*************/
 
+.main hr {
+  border: 3px dashed;
+  width: 80%;
+  margin: auto;
+  color: #e08722;
+}
 .contacto {
-  height: 100vh;
+  display: flex;
+  width: 100%;
+  height: 648px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  /* ----------------------- */
+  /*  height: 100vh;
   min-height: 100vh;
-  /*Letra para toda la sección*/
+  /*Letra para toda la sección
   font-family: "Bebas Neue";
   width: 1500px;
   max-width: 100%;
   margin: auto;
   color: #e6b54a;
-  /*Para que los patrones y la columna central queden en la misma línea*/
+  /*Para que los patrones y la columna central queden en la misma línea
   display: flex;
   justify-content: space-between;
-  /*Para que los patrones de los costados se escondan*/
+  /*Para que los patrones de los costados se escondan
   overflow: hidden;
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
 }
-
+.fondo_contacto {
+  background-image: url("/image/fondo_hojas_redumensionada.jpg");
+  background-repeat: no repeat;
+  background-size: cover;
+  width: 100%;
+  height: 648px;
+}
 /*Contacto y Ubicación, datos de la columna central*/
 
-.contacto .columna_contacto {
+/* .contacto .columna_contacto {
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -216,7 +234,7 @@
   width: 70%;
 }
 
-/*Parte de arriba de la columna, imagen de araña más títulos*/
+/*Parte de arriba de la columna, imagen de araña más títulos
 
 #columnaarriba {
   margin: auto;
@@ -225,27 +243,27 @@
   height: 30vh;
   margin: 2% auto 2% auto;
 }
-
-/*Caja de imagen de araña*/
+*/
+/*Caja de imagen de araña
 
 .imagen_contacto {
   text-align: center;
 }
-
-/*Caja que contiene los títulos*/
+*/
+/*Caja que contiene los títulos
 
 .titulos_contacto {
   text-align: center;
   margin: 10% auto;
 }
-
-/*Fuente de títulos*/
+*/
+/*Fuente de títulos
 
 .titulos_contacto h1 {
   font-size: 6vh;
 }
-
-/*Este componente es de datos cliente y mapa*/
+*/
+/*Este componente es de datos cliente y mapa
 
 .datoscliente_ubicacion {
   display: flex;
@@ -254,48 +272,47 @@
   max-width: 100%;
   margin: 5% auto;
 }
-
-/*Datos cliente*/
+*/
+/*Datos cliente
 
 #datoscliente {
   width: 100%;
   text-align: center;
   align-self: center;
 }
-
-/*Fuente h1 dentro de datos cliente*/
+*/
+/*Fuente h1 dentro de datos cliente
 
 .contacto .columna_contacto .datoscliente_ubicacion #datoscliente h1 {
   font-size: 4vh;
   line-height: 7vh;
 }
-
-/*Fuente h3 dentro de datos cliente*/
+*/
+/*Fuente h3 dentro de datos cliente
 
 .contacto .columna_contacto .datoscliente_ubicacion #datoscliente h3 {
   font-size: 2.5vh;
   line-height: 3vh;
   color: rgba(73, 70, 68, 1);
 }
-
-/*Fuente de enlaces tipo "a" dentro de datos cliente*/
+*/
+/*Fuente de enlaces tipo "a" dentro de datos cliente
 
 .contacto .columna_contacto .datoscliente_ubicacion #datoscliente a {
   font-size: 2.5vh;
   color: rgba(73, 70, 68, 1);
   text-decoration: none;
 }
-
-/*Fuente de Hover de enlaces tipo "a" dentro de datos cliente*/
+*/
+/*Fuente de Hover de enlaces tipo "a" dentro de datos cliente
 
 .contacto .columna_contacto .datoscliente_ubicacion #datoscliente a:hover {
   color: #52a5a0;
   text-decoration: none;
 }
-
-/*Mapa*/
-
-#mapa_contacto {
+*/
+.mapa_contacto {
+  display: flex;
   padding: 3%;
   padding: 7px;
   width: 500px;
