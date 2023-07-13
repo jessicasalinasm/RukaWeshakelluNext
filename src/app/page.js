@@ -87,6 +87,16 @@ export default function Home() {
         </div>
       </section>
       <hr></hr>
+
+
+
+
+
+
+
+
+
+
       <section className={styles.contacto}>
         <div className={styles.fondo_contacto}>
           <Image
