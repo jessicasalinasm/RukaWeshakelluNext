@@ -12,7 +12,7 @@
   width: 100%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 1vh;
   padding: 1vh;
 }
@@ -110,10 +110,11 @@
   gap: 2vh;
 }
 
+/*
 #cuartacolumna {
   flex-direction: column;
   gap: 1vh;
-}
+}*/
 
 #quintacolumna {
   flex-direction: column;
@@ -144,13 +145,16 @@
   color: #afafaf;
 }
 
+/*
 #cuartacolumna h3:hover {
   color: #afafaf;
-}
+}*/
 
+/*
 #cuartacolumna p:hover {
   color: #afafaf;
-}
+}*/
+
 .derechos_reservados_container {
   display: flex;
   align-items: center;

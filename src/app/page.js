@@ -4,7 +4,7 @@ import Link from "next/link";
 /* Felipito's comment--> Añadi las card que utilice para platos recomendados */
 import Card from "./components/Card_recomendacion/index";
 /* estamos trabajando en la fuente, asi que por el momento da error */
-import H1 from "./components/material/H1";
+/*import H1 from "./components/material/H1";*/
 
 export default function Home() {
   return (

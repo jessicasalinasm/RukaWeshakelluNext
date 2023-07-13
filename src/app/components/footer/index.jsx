@@ -39,31 +39,35 @@ export default function Footer() {
         </div>
         <div className={style.box_footer} id={style.segundacolumna}>
 
-          <Link href="/app">
+          {/*<Link href="/app">
 
 
             <h3>
               <b>Contacto</b>
-            </h3>
-          </Link>
+          </h3>
+          </Link>*/}
           <Link href="/nosotros">
             <h3>
               <b>Nosotros</b>
             </h3>
           </Link>
-          <h3>
-            <b>Mercado</b>
-          </h3>
-        </div>
-        <div className={style.box_footer} id={style.terceracolumna}>
-          <h3>Reservas</h3>
-          <h3>Nuestros Salones</h3>
-          <h3>Nuestros Eventos</h3>
-        </div>
-        <div className={style.box_footer} id={style.cuartacolumna}>
+          <Link href="/Categorias">
+            <h3>
+              <b>Productos</b>
+            </h3>
+          </Link>
           <Link href="/menu">
             <h3>Menú</h3>
           </Link>
+        </div>
+        <div className={style.box_footer} id={style.terceracolumna}>
+          <Link href="/reserva"><h3>Reserva</h3></Link>
+          <h3>Nuestros Salones</h3>
+        </div>
+        {/*<div className={style.box_footer} id={style.cuartacolumna}>
+          <Link href="/menu">
+            <h3>Menú</h3>
+          </Link>*/}
 
           {/* <Link href="/menu/Carta#seccion-1">
             <p>Comida Casera</p>
@@ -85,7 +89,7 @@ export default function Footer() {
             <p>Cafeteria/Pasteleria</p>
           </Link> */}
 
-        </div>
+        {/*</div>*/}
         <div className={style.box_footer} id={style.quintacolumna}>
           <div>
             <h3>Ubicación</h3>
