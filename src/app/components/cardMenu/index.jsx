@@ -39,7 +39,9 @@ export default function MenuHome() {
     },
     {
       Imagen: "/image/torta de harina tostada.jpg",
+
       titulo: "Cafeteria / Pasteleria",
+
       descripcion:
         "Officia ea aute esse quis officia aliqua. Enim Lorem mollit est quis sit occaecat dolor qui mollit Lorem. Aute ex non commodo velit anim ea sunt laboris ullamco est.",
       subTitulo: "Officia ea aute esse quis officia aliqua. Enim Lorem mollit ",

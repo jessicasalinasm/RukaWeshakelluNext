@@ -38,7 +38,10 @@ export default function Footer() {
           </div>
         </div>
         <div className={style.box_footer} id={style.segundacolumna}>
+
           <Link href="/app">
+
+
             <h3>
               <b>Contacto</b>
             </h3>
@@ -61,6 +64,7 @@ export default function Footer() {
           <Link href="/menu">
             <h3>Menú</h3>
           </Link>
+
           {/* <Link href="/menu/Carta#seccion-1">
             <p>Comida Casera</p>
           </Link>
@@ -80,13 +84,16 @@ export default function Footer() {
           <Link href="/menu/Carta#seccion-5">
             <p>Cafeteria/Pasteleria</p>
           </Link> */}
+
         </div>
         <div className={style.box_footer} id={style.quintacolumna}>
           <div>
             <h3>Ubicación</h3>
+
             <p>Allipen Km 13, </p>
             <br />
             <p>Freire, Chile</p>
+
           </div>
           <br />
 
