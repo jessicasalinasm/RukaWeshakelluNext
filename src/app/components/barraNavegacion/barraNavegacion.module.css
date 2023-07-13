@@ -1,25 +1,26 @@
-.header_navbar {
+.header_navbar{
   /* opacity: 0.9; */
-  background-color: #9c1b1c;
+  background-color: #9C1B1C;
 }
-.logo {
-  margin-right: 100px;
+.logo{
+ 
+ margin-right: 100px;
 }
-.navbar {
+.navbar{
   display: flex;
   justify-content: space-around;
   margin: 0 20px;
 }
 
-.navbar_lista li {
+.navbar_lista li{
   position: flex;
-  font-family: "Anek Devanagari", sans-serif;
+  font-family: 'Anek Devanagari', sans-serif;
   font-size: 20px;
   padding: 0.7rem;
   margin-right: 9px;
   list-style: none;
 }
-.navbar_lista li::after {
+.navbar_lista li::after{
   content: "";
   position: absolute;
   bottom: 2px;
@@ -32,27 +33,29 @@
   transform-origin: right;
   transition: transform 0.35s ease-out;
 }
-.navbar_lista li:hover::after {
+.navbar_lista li:hover::after{
   transform: scaleX(1);
   transform-origin: bottom;
 }
 
-.navbar_link {
+.navbar_link{
   text-decoration: none;
   color: #ffff;
+
+  
 }
-.navbar_lista {
+.navbar_lista{
   display: flex;
   padding: 1rem;
+  
 }
 /* ---------------------------------------------------------------------------------------------------------------- */
 .button_Reserva {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 17px;
   padding: 0.7em 1.7em; /* aquí se le cambía el tamaño */
   font-weight: 500;
-  background: #e0a522;
+  background: #E0A522;
   color: white;
   border: none;
   position: relative;
@@ -68,6 +71,7 @@
   top: 0;
   border-radius: 0.6em;
   margin-top: -0.25em;
+  
 }
 
 .label {
@@ -78,7 +82,7 @@
 .transition {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
   transition-duration: 500ms;
-  background-color: #b3841b;
+  background-color: #B3841B;
   border-radius: 9999px;
   width: 0;
   height: 0;
@@ -89,6 +93,7 @@
 }
 
 .button_Reserva:hover .transition {
+
   width: 14em;
   height: 14em;
 }

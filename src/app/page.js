@@ -6,7 +6,6 @@ import Card from "./components/Card_recomendacion/Cards";
 /* estamos trabajando en la fuente, asi que por el momento da error */
 import H1 from "./components/material/H1";
 
-
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -89,74 +88,71 @@ export default function Home() {
       </section>
       <hr></hr>
 
-
-
-
-
-
-
-
-
-
       {/* Carrusel */}
       {/* Carrusel */}
 
       <section className={styles.contacto}>
         <div className={styles.fondo_contacto}>
-          <Image
-            id={styles.simboloarana}
-            src="/image/simboloarana.png"
-            alt="Simbolo Araña"
-            width="150"
-            height="186"
-          />
-          <h1>Contacto</h1>
-          <h1>¿Tienes alguna duda o consulta?</h1>
-          <h3>Teléfono :+56956061841</h3>
-          <h3>Correo : rukaweshakellu@gmail.com</h3>
-          <h3>
-            Instagram:
-            <Link
-              href="https://www.instagram.com/ruka.weshakellu/?hl=es"
-              alt="Instagram"
-              target="_blank"
-            >
-              {" "}
-              @ruka.weshakellu
-            </Link>
-          </h3>
-          <h3>
-            Facebook:
-            <Link
-              href="https://web.facebook.com/profile.php?id=100057548330284"
-              alt="Facebook"
-              target="_blank"
-            >
-              {" "}
-              Ruka Weshakellu
-            </Link>
-          </h3>
+          <div className={styles.info_contacto_container}>
+            <Image
+              id={styles.simboloarana}
+              src="/image/simbolo_araña_blanco.svg"
+              alt="Simbolo Araña"
+              width="80"
+              height="100"
+            />
+            <h1>Contacto</h1>
+            <h1>¿Tienes alguna duda o consulta?</h1>
+            <h3>Teléfono :+56956061841</h3>
+            <h3>Correo : rukaweshakellu@gmail.com</h3>
+            <div>
+              <Image
+                className={styles.logo_instagram}
+                src="/image/instagram.png"
+                alt="logo instagram"
+                width="30"
+                height="30"
+              />
+              <Link
+                href="https://www.instagram.com/ruka.weshakellu/?hl=es"
+                alt="Instagram"
+                target="_blank"
+              >
+                {" "}
+                @ruka.weshakellu
+              </Link>
+            </div>
+            <div>
+              <Image
+                className={styles.logo_facebook}
+                src="/image/facebook.png"
+                alt="logo facebook"
+                width="30"
+                height="30"
+              />
 
-          <div>
+              <Link
+                href="https://web.facebook.com/profile.php?id=100057548330284"
+                alt="Facebook"
+                target="_blank"
+              >
+                {" "}
+                Ruka Weshakellu
+              </Link>
+            </div>
+          </div>
+
+          <div className={styles.mapa_info_container}>
             <h1>Ubicación</h1>
-            <div id={styles.mapa_contacto}>
-              <p>
-                Proident voluptate sunt est amet amet sint excepteur ex do in.
-                Eiusmod in irure occaecat occaecat ipsum cupidatat velit enim
-                exercitation ipsum minim est magna dolor. Nulla non cupidatat
-                amet elit sunt quis amet. Et dolor nisi amet in amet adipisicing
-                et id esse. Eiusmod et minim adipisicing sit cillum aliquip
-                ullamco.
-              </p>
-              {/* <iframe
+            <h5>Allipen Km 13 Freire, 4940000 Araucanía</h5>
+            <div id={styles.mapa_contacto_container}>
+              <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3100.880891319178!2d-72.47086342462585!3d-38.995214671703295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9614e90caec397b5%3A0x2925957e94050d22!2sRuka%20Weshakellu!5e0!3m2!1ses!2scl!4v1686781870263!5m2!1ses!2scl"
-                width="500vh"
-                height="350vh"
-                style={{ border: 0 }}
+                className={styles.mapa_contacto}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-              /> */}
+              />
             </div>
           </div>
         </div>
