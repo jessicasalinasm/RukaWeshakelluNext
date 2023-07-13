@@ -1,3 +1,4 @@
+
 .banner_nosotros_conatiner {
   display: flex;
   justify-content: center;
@@ -26,16 +27,20 @@
   background-color: #ffffff;
 }
 
+
 /*Formato de las cajas que contienen las imágenes de los costados*/
 
 .decoracion_nosotros {
   overflow: hidden;
 }
 
+
+
 .nosotros-patronizquierdo {
   width: 200px;
   height: 2176px;
 }
+
 
 /*****Texto de la página más video*****/
 

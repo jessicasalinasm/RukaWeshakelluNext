@@ -38,7 +38,10 @@ export default function Footer() {
           </div>
         </div>
         <div className={style.box_footer} id={style.segundacolumna}>
-          <Link href="/">
+
+          <Link href="/app">
+
+
             <h3>
               <b>Contacto</b>
             </h3>
@@ -61,15 +64,36 @@ export default function Footer() {
           <Link href="/menu">
             <h3>Menú</h3>
           </Link>
-          <p>Bebestible</p>
-          <p>Platos Fríos</p>
-          <p>Platos Calientes</p>
-          <p>Postres</p>
+
+          {/* <Link href="/menu/Carta#seccion-1">
+            <p>Comida Casera</p>
+          </Link>
+          <br />
+          <Link href="/menu/Carta#seccion-2">
+            <p>Sandwich de la Casa</p>
+          </Link>
+          <br />
+          <Link href="/menu/Carta#seccion-3">
+            <p>Aperitivos</p>
+          </Link>
+          <br />
+          <Link href="/menu/Carta#seccion-4">
+            <p>Vinos Otoño/Invierno</p>
+          </Link>
+          <br />
+          <Link href="/menu/Carta#seccion-5">
+            <p>Cafeteria/Pasteleria</p>
+          </Link> */}
+
         </div>
         <div className={style.box_footer} id={style.quintacolumna}>
           <div>
             <h3>Ubicación</h3>
-            <p>Allipen Km 13, Freire, Chile</p>
+
+            <p>Allipen Km 13, </p>
+            <br />
+            <p>Freire, Chile</p>
+
           </div>
           <br />
 
