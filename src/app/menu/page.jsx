@@ -6,9 +6,9 @@ import Image from "next/image";
 export default function page() {
   return (
     <main className={Style.fondoMenu}>
+      <div className={Style.bannerMenu}></div>
       <section className={Style.menuContenedor}>
-        <div className={Style.bannerMenu}></div>
-        <div>
+        <div className={Style.container_content}>
           <MenuHome />
         </div>
       </section>

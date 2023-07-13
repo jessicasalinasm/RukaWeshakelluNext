@@ -61,7 +61,7 @@ export default function Footer() {
           <Link href="/menu">
             <h3>Menú</h3>
           </Link>
-          <Link href="/menu/Carta#seccion-1">
+          {/* <Link href="/menu/Carta#seccion-1">
             <p>Comida Casera</p>
           </Link>
           <br />
@@ -79,13 +79,12 @@ export default function Footer() {
           <br />
           <Link href="/menu/Carta#seccion-5">
             <p>Cafeteria/Pasteleria</p>
-          </Link>
+          </Link> */}
         </div>
         <div className={style.box_footer} id={style.quintacolumna}>
           <div>
             <h3>Ubicación</h3>
             <p>Allipen Km 13, </p>
-            <br />
             <br />
             <p>Freire, Chile</p>
           </div>
@@ -107,6 +106,9 @@ export default function Footer() {
             </Link>
           </div>
         </div>
+      </div>
+      <div className={style.derechos_reservados_container}>
+        <h4>® Derechos reservados Ruka Weshakellu 2023</h4>
       </div>
     </footer>
   );

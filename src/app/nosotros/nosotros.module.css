@@ -41,7 +41,6 @@
     z-index: -1;
     right: 0;
 }
-*/
 
 /*****Texto de la página más video*****/
 
@@ -50,6 +49,7 @@
 .centro_nosotros {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 140vh;
   margin: 2% auto;
 }
@@ -66,14 +66,14 @@
 /*Fotos*/
 
 .img_section_nosotros img {
-  border: 2px dashed #e6b74f;
+  border: 4px dashed #e6b74f;
   padding: 7px;
 }
 
 /*Formato de Títulos*/
 
 .centro_nosotros h1 {
-  font-family: "Bebas Neue";
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #e6b74f;
   font-size: 50px;
   text-align: left;
@@ -93,7 +93,8 @@
 .parrafo_nosotros {
   text-align: justify;
   padding: 5vh 10vh 5vh 10vh;
-  font-family: Abel;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-size: 3vh;
 }
 
