@@ -6,6 +6,7 @@ import style from "./footer.module.css";
 export default function Footer() {
   return (
     <footer className={style.pie_pagina}>
+      
       <div className={style.grupo_1}>
         <div className={style.box_footer} id={style.primeracolumna}>
           <div className={style.logo_redsocial}>
