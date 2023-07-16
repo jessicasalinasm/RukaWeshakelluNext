@@ -13,7 +13,7 @@ export default function BarraNavegacion() {
                 <li><Link className={style.navbar_link} href="/menu">Menú</Link></li>
                 <li><Link className={style.navbar_link} href="/Categorias">Productos</Link></li>
                 <li><Link className={style.navbar_link} href="/nosotros">Nosotros</Link></li>
-                <li><Link className={style.navbar_link} href="#">Contacto</Link></li>
+                <li><Link className={style.navbar_link} href="/#contacto">Contacto</Link></li>
                 <button className={style.button_Reserva}>  
                   <span className={style.transition}></span>
                   <span className={style.gradient}></span>

@@ -10,7 +10,7 @@ export default function Productos() {
     <main className={style.contenedor}>
       <div className={style.banner}>
         <h1>Productos Weshakellu</h1>
-        <h3>Descubre nuestros productos hecho a mano</h3>
+        <h3>Descubre nuestros productos hechos a mano</h3>
       </div>
       <h2 className={style.titulo_destacados}>Productos destacados</h2>
 

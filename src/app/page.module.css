@@ -67,11 +67,39 @@
 }
 /* nosotros primera parte */
 
-.container_nosotros {
+.container_main {
+  width: 100%;
+}
+.container_salones_nosotros {
   display: flex;
+  flex-direction: column;
   width: 70%;
-  /* height: 800px; */
   margin: auto;
+}
+.container_salones {
+  background-color: #1c1816;
+  display: flex;
+  height: 700px;
+  padding: 20px;
+  margin: 70px auto;
+}
+.carrusel_container {
+  background-color: blueviolet;
+  width: 40%;
+}
+.info_salones_container {
+  background-color: darkkhaki;
+  width: 60%;
+}
+.text_salones_container {
+  background-color: #f5f5f5;
+  margin: 50px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 50px;
+  align-items: center;
 }
 
 .img_nosotros {
