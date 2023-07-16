@@ -132,6 +132,7 @@ export default function Home() {
               width="80"
               height="100"
             />
+            
             <h1>Contacto</h1>
             <h1>¿Tienes alguna duda o consulta?</h1>
             <h3>Teléfono :+56956061841</h3>
