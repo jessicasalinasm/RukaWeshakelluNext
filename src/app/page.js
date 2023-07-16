@@ -69,7 +69,21 @@ export default function Home() {
                   ut voluptate qui Lorem eiusmod reprehenderit. Lorem minim enim
                   labore sunt reprehenderit est in commodo id laboris.
                 </p>
-              </div>
+              </div>{/* 
+              <section className={styles.container_nosotros}>
+        <div className={styles.img_nosotros}>
+          <div className={styles.container_img_patron}>
+            <Image
+              src="/image/foto_doñaElba.png"
+              alt="imagen-nosotros"
+              width="583"
+              height="554"
+            />
+            <div className={styles.vector_patron_container}>
+              <img src="/image/patron_mp_pequeño.svg"></img>
+            </div>
+            </div>
+             */}
             </div>
           </div>
           <div className={styles.img_nosotros}>

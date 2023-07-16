@@ -14,6 +14,7 @@
   margin: auto;
   display: grid;
   grid-template-columns: 0.6fr 1.8fr 0.6fr;
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 1vh;
 }
 
@@ -69,7 +70,11 @@
 .link_reservas > * {
   padding-bottom: 20px;
 }
-
+/*
+#cuartacolumna {
+  flex-direction: column;
+  gap: 1vh;
+}*/
 /* #terceracolumna {
   display: flex;
   align-items: center;
@@ -94,7 +99,10 @@
 .link_waze:hover {
   color: #afafaf;
 }
-
+/*
+#cuartacolumna h3:hover {
+  color: #afafaf;
+}*/
 #cuartacolumna p:hover {
   color: #afafaf;
 }
