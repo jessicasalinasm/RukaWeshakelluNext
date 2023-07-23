@@ -12,7 +12,7 @@
   width: 100%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 1vh;
   padding: 1vh;
 }
@@ -36,10 +36,14 @@
 
 /*Logo*/
 
-.pie_pagina .grupo_1 .box_footer figure img {
+.pie_pagina .grupo_1 .box_footer figure Image {
   width: 200px;
 }
 
+.redes_sociales {
+  display: flex;
+  justify-content: space-around;
+}
 /*Caja donde se ubican los 3 Iconos de redes sociales*/
 
 .pie_pagina .grupo_1 .box_footer .logo_redsocial .redes_sociales {
@@ -48,9 +52,10 @@
 
 /*Caja de cada ícono de redsocial */
 
-.pie_pagina .grupo_1 .box_footer .logo_redsocial .redes_sociales i {
+.pie_pagina .grupo_1 .box_footer .logo_redsocial .redes_sociales Image {
   margin: 0 1vh;
   color: #ffffff;
+  margin-right: 40px;
 }
 
 /*Hover de cada ícono de redsocial*/
@@ -62,7 +67,12 @@
 /*Fuente h3 de pie de página*/
 
 .pie_pagina .grupo_1 .box_footer h3 {
-  font-size: 20px;
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+
+.pie_pagina .grupo_1 .box_footer h2 {
+  font-size: 17px;
   margin-bottom: 12px;
 }
 
@@ -99,41 +109,15 @@
 /*Segunda columna*/
 
 #segundacolumna {
-  flex-direction: column;
   gap: 2vh;
+  justify-content: space-between;
 }
-
-/*Tercera columna*/
-
-#terceracolumna {
-  flex-direction: column;
-  gap: 2vh;
-}
-
-/*
-#cuartacolumna {
-  flex-direction: column;
-  gap: 1vh;
-}*/
 
 #quintacolumna {
   flex-direction: column;
 }
 
-/*Grupo 2 de pie de pagina*/
-
-.pie_pagina .grupo_2 {
-  background-color: #9c1b1c;
-  text-align: center;
-  padding-bottom: 1vh;
-  color: #ffffff;
-}
-
-/*Fuente de grupo 2 pie de página*/
-/*
-.pie-pagina .grupo-2 small {
-    font-size: 2vh;
-}*/
+/* ------------------------------ example text comment (Alt + x )------------------------------ */
 
 /*Hover para cada botón del pie de página*/
 
@@ -141,20 +125,9 @@
   color: #afafaf;
 }
 
-#terceracolumna h3:hover {
-  color: #afafaf;
-}
-
-/*
-#cuartacolumna h3:hover {
-  color: #afafaf;
-}*/
-
-/*
 #cuartacolumna p:hover {
   color: #afafaf;
-}*/
-
+}
 .derechos_reservados_container {
   display: flex;
   align-items: center;

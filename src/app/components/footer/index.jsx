@@ -6,99 +6,89 @@ import style from "./footer.module.css";
 export default function Footer() {
   return (
     <footer className={style.pie_pagina}>
-      
       <div className={style.grupo_1}>
         <div className={style.box_footer} id={style.primeracolumna}>
           <div className={style.logo_redsocial}>
             <figure>
-              <Link href="#">
-                <Image
-                  src="/image/rukalogo.png"
-                  alt="Logo de Ruka Weshakellu"
-                  width={200}
-                  height={100}
-                />
-              </Link>
+              <Image
+                src="/image/rukalogo.png"
+                alt="Logo de Ruka Weshakellu"
+                width={200}
+                height={100}
+              />
             </figure>
             <div className={style.redes_sociales}>
-              <Link
-                href="https://www.instagram.com/ruka.weshakellu/?hl=es"
-                alt="Instagram"
-                target="_blank"
-              >
-                <i className="fa-brands fa-square-instagram fa-2xl" />
-              </Link>
-              <Link
-                href="https://web.facebook.com/profile.php?id=100057548330284"
-                alt="Facebook"
-                target="_blank"
-              >
-                <i className="fa-brands fa-square-facebook fa-2xl" />
-              </Link>
+              <div>
+                <Link
+                  href="https://www.instagram.com/ruka.weshakellu/?hl=es"
+                  alt="Instagram"
+                  target="_blank"
+                >
+                  <Image
+                    className={style.logo_instagram}
+                    src="/image/instagram.png"
+                    alt="logo instagram"
+                    width="30"
+                    height="30"
+                  />
+                </Link>
+              </div>
+              <div>
+                <Link
+                  href="https://web.facebook.com/profile.php?id=100057548330284"
+                  alt="Facebook"
+                  target="_blank"
+                >
+                  <Image
+                    className={style.logo_facebook}
+                    src="/image/facebook.png"
+                    alt="logo facebook"
+                    width="30"
+                    height="30"
+                  />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
         <div className={style.box_footer} id={style.segundacolumna}>
-
-          {/*<Link href="/app">
-
-
-            <h3>
-              <b>Contacto</b>
-          </h3>
-          </Link>*/}
-          <Link href="/nosotros">
-            <h3>
-              <b>Nosotros</b>
-            </h3>
-          </Link>
-          <Link href="/Categorias">
-            <h3>
-              <b>Productos</b>
-            </h3>
-          </Link>
-          <Link href="/menu">
-            <h3>Menú</h3>
-          </Link>
+          <div className={style.box_nosotros}>
+            <Link href="/nosotros">
+              <h3>
+                <b>Nosotros</b>
+              </h3>
+            </Link>
+          </div>
+          <div className={style.box_menu}>
+            <Link href="/menu">
+              <h3>
+                <b>Menú</b>
+              </h3>
+            </Link>
+          </div>
+          <div className={style.box_salones}>
+            <Link href="/#salones">
+              <h3>
+                <b>Salones</b>
+              </h3>
+            </Link>
+            <h2>Salón general</h2>
+            <h2>Salón fogón</h2>
+          </div>
+          <div className={style.box_categorias}>
+            <Link href="/Categorias">
+              <h3>
+                <b>Productos</b>
+              </h3>
+            </Link>
+            <h2>Artesanías</h2>
+            <h2>Agroelaborados</h2>
+          </div>
         </div>
-        <div className={style.box_footer} id={style.terceracolumna}>
-          <Link href="/reserva"><h3>Reserva</h3></Link>
-          <h3>Nuestros Salones</h3>
-        </div>
-        {/*<div className={style.box_footer} id={style.cuartacolumna}>
-          <Link href="/menu">
-            <h3>Menú</h3>
-          </Link>*/}
-
-          {/* <Link href="/menu/Carta#seccion-1">
-            <p>Comida Casera</p>
-          </Link>
-          <br />
-          <Link href="/menu/Carta#seccion-2">
-            <p>Sandwich de la Casa</p>
-          </Link>
-          <br />
-          <Link href="/menu/Carta#seccion-3">
-            <p>Aperitivos</p>
-          </Link>
-          <br />
-          <Link href="/menu/Carta#seccion-4">
-            <p>Vinos Otoño/Invierno</p>
-          </Link>
-          <br />
-          <Link href="/menu/Carta#seccion-5">
-            <p>Cafeteria/Pasteleria</p>
-          </Link> */}
-
-        {/*</div>*/}
         <div className={style.box_footer} id={style.quintacolumna}>
           <div>
             <h3>Ubicación</h3>
-
-            <p>Allipen Km 13, </p>
-            <br />
-            <p>Freire, Chile</p>
-
+            <p>Allipen Km 13, Freire, Chile</p>
           </div>
           <br />
 

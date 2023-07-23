@@ -54,7 +54,7 @@ export default function Home() {
         </div>
       </div>
       {/* Finish Vectores */}
-      <section className={styles.container_nosotros}>
+      <section className={styles.container_nosotros} id="salones">
         <div className={styles.img_nosotros}>
           <div className={styles.container_img_patron}>
             <Image
