@@ -85,7 +85,7 @@ export default function Nosotros() {
             />
           </div>
           <div>
-            <h1>Ven y celebra con nosotros!</h1>
+            <h1>¡Ven y celebra con nosotros!</h1>
           </div>
         </div>
 

@@ -12,7 +12,7 @@ export default function BarraNavegacion() {
           src="/image/rukalogo.png"
           alt="Logo de Ruka Weshakellu"
           width={170}
-          height={70}
+          height={80}
         />
         <ul className={style.navbar_lista}>
           <li>

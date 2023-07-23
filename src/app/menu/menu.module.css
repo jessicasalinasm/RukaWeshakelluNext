@@ -5,6 +5,8 @@
   display: block;
 }
 .fondoMenu {
+  padding-top: 85px;
+  background-color: rgba(50, 47, 45, 1);
   background-image: url("/public/image/decoracionMenu.svg");
   background-repeat: no-repeat;
   background-size: auto;
@@ -12,7 +14,7 @@
 .bannerMenu {
   width: 1920px;
   height: 600px;
-  background-image: url("/image/Banner-menu.png");
+  background-image: url("/image/banner grande.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
